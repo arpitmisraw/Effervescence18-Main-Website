@@ -315,7 +315,7 @@ html, body{
 }
 
 .row-2{
-    height: 250vh;
+    height: 450vh;
 }
 
 .row-1{
@@ -354,15 +354,40 @@ html, body{
 }
 
 .row-2{
-    background-color: rgb(49, 46, 46);
+    background-color: rgb(14, 11, 11);
 }
 
 .text-1{
     margin: 0%;
     position: relative;
     left: 20%;
-    top: 30%;
+    top: 700px;
     color: white;
+    font-family: Helvetica;
+}
+
+.image-piano{
+    height: 600px;
+    width: 600px;
+    position: relative;
+    top: 400px;
+    left: 55%;
+}
+
+.text-2{
+    margin: 0%;
+    position: relative;
+    left: 60%;
+    top: 1050px;
+    color: white;
+    font-family: Helvetica;
+}
+
+.image-dj{
+    height: 400px;
+    position: relative;
+    top: 850px;
+    left: 15%;
 }
 
 

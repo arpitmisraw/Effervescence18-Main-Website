@@ -1,1 +1,1 @@
-
+var first = new AudioFade('#scrollaudio', 400, 100, 50).init();
