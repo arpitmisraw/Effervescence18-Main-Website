@@ -406,6 +406,16 @@ html, body{
     top: -43%;
     left: 50%;
     transform: translate(-50%, 0);
+    animation: rotate 300s infinite;
+}
+
+@keyframes rotate{
+    0% {
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, 0) rotate(36000deg);
+    }
 }
 
 
@@ -460,14 +470,6 @@ html, body{
 
 
 
-/* .text-2{
-    margin: 0%;
-    position: relative;
-    left: 60%;
-    top: 1050px;
-    color: white;
-    font-family: Helvetica;
-} */
 
 .image-dj{
     height: 400px;
