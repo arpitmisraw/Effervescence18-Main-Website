@@ -386,7 +386,8 @@ html, body{
     top: 40%;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .text-2, .text-3{
@@ -408,6 +409,8 @@ html, body{
     transform: translate(-50%, 0);
     animation: rotate 300s infinite;
 }
+
+
 
 @keyframes rotate{
     0% {
@@ -441,6 +444,11 @@ html, body{
     .logo{
         width: 400px;
     }
+
+    .image-vinyl{
+        height: 500px;
+    }
+
 }
 
 
@@ -452,6 +460,10 @@ html, body{
     .image-piano{
         height: 200px;
         width: 200px;
+    }
+
+    .image-vinyl{
+        height: 100px;
     }
 }
 
