@@ -417,14 +417,14 @@ html, body{
 
 
 .image-speaker-left{
-    height: 500px;
+    height: 40%;
     position: fixed;
     top: 20%;
     left: 5%;
 }
 
 .image-speaker-right{
-    height: 500px;
+    height: 40%;
     position: fixed;
     right: 5%;
     top: 20%;
@@ -432,11 +432,28 @@ html, body{
 
 
 .image-crowd{
-    width: 80%;
+    width: 60%;
     position: fixed;
     bottom: -15%;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+
+.image-dance{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dance-event{
+    width: 100%;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -458,6 +475,14 @@ html, body{
     position: relative;
 }
 
+
+.text-4{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
 
 @media only screen and (max-width: 1200px) {
     .text-1 {
@@ -491,6 +516,18 @@ html, body{
 
     .image-crowd{
         bottom: -5%;
+    }
+
+    .container  .dance-event{
+        width: 60%;
+    }
+
+    .image-dance{
+        width: 50%;
+    }
+
+    .text-4{
+        font-size: 12px;
     }
 }
 
@@ -528,6 +565,10 @@ html, body{
     .image-crowd{
         bottom: 0%;
     }
+
+    .container .dance-event{
+        width: 70%;
+    }
 }
 
 
@@ -549,6 +590,10 @@ html, body{
     .image-speaker-right{
         height: 150px;
     }
+    .container .dance-event{
+        width: 70%;
+    }
+
 }
 
 
