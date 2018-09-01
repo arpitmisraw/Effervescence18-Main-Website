@@ -321,8 +321,8 @@ html, body{
 }
 
 .row-1{
-    /* background-image: url("../img/Background.png"); */
-    /* background-size: cover; */
+    background-image: url("../img/Background.png");
+    background-size: cover;
 }
 
 .row-1 > h1{
