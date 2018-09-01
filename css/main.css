@@ -344,25 +344,27 @@ html, body{
     width: 800px;
     margin: auto;
     position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     animation: logo 10s infinite;
 }
 
 @keyframes logo{
     0% {
-        top: 0%;
+        top: 50%;
     }
 
     25% {
-        top: 4%;
+        top: 54%;
     }
 
 
     75% {
-        top: -4%;
+        top: 46%;
     }
 
     100% {
-        top: 0%;
+        top: 50%;
     }
 
 }
