@@ -417,17 +417,17 @@ html, body{
 
 
 .image-speaker-left{
-    height: 40%;
+    height: 20%;
     position: fixed;
-    top: 20%;
+    bottom: 20%;
     left: 5%;
 }
 
 .image-speaker-right{
-    height: 40%;
+    height: 20%;
     position: fixed;
     right: 5%;
-    top: 20%;
+    bottom: 20%;
 }
 
 
@@ -437,6 +437,7 @@ html, body{
     bottom: -15%;
     left: 50%;
     transform: translate(-50%, 0);
+    z-index: 1;
 }
 
 
@@ -449,11 +450,37 @@ html, body{
 }
 
 .dance-event{
-    width: 100%;
+    width: 60%;
     position: fixed;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.image-lights-left{
+    position: fixed;
+    top: 0;
+    left: 5%;
+    height: 10%;
+}
+
+
+.image-lights-right{
+    position: fixed;
+    top: 0;
+    right: 5%;
+    height: 10%;
+}
+
+
+.image-stage{
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* height: 15%; */
+    width: 60%;
+    z-index: 0;
 }
 
 
@@ -518,7 +545,7 @@ html, body{
         bottom: -5%;
     }
 
-    .container  .dance-event{
+    .dance-event{
         width: 60%;
     }
 
