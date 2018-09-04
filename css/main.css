@@ -381,6 +381,9 @@ html, body{
 
 .row-2{
     background-color: rgb(14, 11, 11);
+    /* background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
 
 .text-1{
@@ -431,13 +434,22 @@ html, body{
 }
 
 
-.image-crowd{
+.image-crowd-1{
     width: 60%;
     position: fixed;
     bottom: -15%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 1;
+    left: 0%;
+    /* transform: translate(-50%, 0); */
+    z-index: 5;
+}
+
+.image-crowd-2{
+    width: 60%;
+    position: fixed;
+    bottom: -15%;
+    right: 0%;
+    /* transform: translate(-50%, 0); */
+    z-index: 5;
 }
 
 
@@ -455,6 +467,7 @@ html, body{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 4;
 }
 
 .image-lights-left{
@@ -462,6 +475,7 @@ html, body{
     top: 0;
     left: 5%;
     height: 10%;
+    z-index: 4;
 }
 
 
@@ -470,6 +484,7 @@ html, body{
     top: 0;
     right: 5%;
     height: 10%;
+    z-index: 4;
 }
 
 
@@ -480,7 +495,25 @@ html, body{
     transform: translate(-50%, 0);
     /* height: 15%; */
     width: 60%;
-    z-index: 0;
+    z-index: 4;
+}
+
+.image-stage-background-1{
+    position: fixed;
+    bottom: 0;
+    left: 30%;
+    transform: translateX(-50%);
+    height: 100%;
+    z-index: 2;
+}
+
+.image-stage-background-2{
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+    transform: translateX(50%);
+    height: 100%;
+    z-index: 2;
 }
 
 
@@ -534,15 +567,15 @@ html, body{
     }
 
     .image-speaker-left{
-        height: 300px;
+        height: 200px;
     }
 
     .image-speaker-right{
-        height: 300px;
+        height: 200px;
     }
 
-    .image-crowd{
-        bottom: -5%;
+    .image-crowd-1{
+        bottom: 0%;
     }
 
     .dance-event{
@@ -550,11 +583,11 @@ html, body{
     }
 
     .image-dance{
-        width: 50%;
+        width: 100%;
     }
 
     .text-4{
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 
@@ -589,7 +622,7 @@ html, body{
         font-size: 14px;
     }
 
-    .image-crowd{
+    .image-crowd-1{
         bottom: 0%;
     }
 
