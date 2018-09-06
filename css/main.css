@@ -317,7 +317,7 @@ html, body{
 
 .row-2{
     height: 125vh;
-    /* padding-top: 60vh; */
+    padding-top: 60vh;
 }
 
 .row-1{
@@ -340,27 +340,11 @@ html, body{
     left: 50px;
 }
 
-.logo-placement{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.row-logo{
-    height: 100vh;
-    background-image: url("../img/Background.png");
-}
-
-
 .logo{
     width: 800px;
     /* margin: auto; */
     position: relative;
-    top: 50%;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    /* top: 50%; */
     transform: translateY(-50%);
     animation: logo 10s infinite;
 }
