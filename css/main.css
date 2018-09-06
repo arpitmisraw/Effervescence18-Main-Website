@@ -317,7 +317,7 @@ html, body{
 
 .row-2{
     height: 125vh;
-    padding-top: 60vh;
+    /* padding-top: 60vh; */
 }
 
 .row-1{
@@ -340,13 +340,36 @@ html, body{
     left: 50px;
 }
 
+.logo-placement{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row-logo{
+    height: 100vh;
+    background-image: url("../img/Background.png");
+}
+
+
 .logo{
     width: 800px;
-    margin: auto;
+    /* margin: auto; */
     position: relative;
     top: 50%;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
     transform: translateY(-50%);
     animation: logo 10s infinite;
+}
+
+.event{
+    position: fixed;
+    top: 2%;
+    left: 4%;
+    color: white;
 }
 
 @keyframes logo{
@@ -424,6 +447,7 @@ html, body{
     position: fixed;
     bottom: 20%;
     left: 5%;
+    z-index: 4;
 }
 
 .image-speaker-right{
@@ -431,6 +455,7 @@ html, body{
     position: fixed;
     right: 5%;
     bottom: 20%;
+    z-index: 4;
 }
 
 
@@ -448,6 +473,25 @@ html, body{
     position: fixed;
     bottom: -15%;
     right: 0%;
+    /* transform: translate(-50%, 0); */
+    z-index: 5;
+}
+
+
+.image-crowd-3{
+    width: 40%;
+    position: fixed;
+    bottom: -15%;
+    right: 20%;
+    /* transform: translate(-50%, 0); */
+    z-index: 5;
+}
+
+.image-crowd-4{
+    width: 40%;
+    position: fixed;
+    bottom: -15%;
+    left: 20%;
     /* transform: translate(-50%, 0); */
     z-index: 5;
 }
@@ -542,6 +586,11 @@ html, body{
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-text-stroke-color: yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: white;
+    color: white;
 }
 
 @media only screen and (max-width: 1200px) {
